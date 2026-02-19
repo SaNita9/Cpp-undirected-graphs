@@ -1,8 +1,8 @@
-# Undirected Graphs – C++ Interactive CLI Application
+# Cpp Undirected Graphs 
 
 ## Overview
 
-This project is a modular C++ command-line application designed to support the study of Undirected Graphs. It combines structured theoretical content (Definitions) with an interactive assessment module(Interactive Quiz).
+This project is a modular C++ command-line application designed to support the study of Undirected Graphs. It combines theoretical content (Definitions) with an interactive assessment module (Interactive Quiz).
 
 
 ## Project Structure
@@ -40,8 +40,6 @@ Contains the function that displays the questions, as well as the assessment log
 * Answer verification
 * Score calculation
 
-This module encapsulates the core evaluation logic.
-
 ### util.*
 
 Reusable utility functions:
@@ -50,10 +48,6 @@ Reusable utility functions:
 * Menu handling helpers
 * Console formatting (borders, titles)
 * Screen transition logic
-
-Designed to reduce duplication and improve maintainability.
-
-
 
 ## Build Instructions
 
@@ -73,8 +67,6 @@ Then run:
 ```bash
 make clean
 ```
-
-The Makefile manages dependencies and supports incremental compilation.
 
 
 
